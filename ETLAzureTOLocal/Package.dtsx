@@ -7,12 +7,12 @@
   DTS:CreatorName="user-PC\user"
   DTS:DTSID="{FEBA0178-A50E-4FB2-8FFB-F272795F2EF2}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.0900.30"
+  DTS:LastModifiedProductVersion="15.0.0900.40"
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{AB750D5A-A87E-4736-A570-BDB0537F3F7E}">
+  DTS:VersionBuild="36"
+  DTS:VersionGUID="{E6BC9FA7-26CD-445D-95DC-BE47C5BB56E0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -33,12 +33,7 @@
       DTS:ObjectName="192.168.1.6.DL_Inventories.sa">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=192.168.1.6;User ID=sa;Initial Catalog=DL_Inventories;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYLtBshsyV0KPiJ2jUTAxIwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA6ON72YijVz8YK2THRCjqROUiEkqdtMry/pSxdg+XVwQAAAAAOgAAAAAIAACAAAADCArpXSQNDEQswKgs2QZ/GqlLFNHQIZIbzQFhqH0/0XyAAAACDjn1uvXDLLSExTsZ1sqkGi27f9Zu8UC9WYsrKi237AkAAAACWNK1KapfxvBd4+ZGdcQxJ7OqlT/gzGNLyhLNFRSn+BiirNvt8tFCbVdBdL/5KsyRQNirt+qdbtx9DlIuNftP+</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=192.168.1.6;User ID=sa;Initial Catalog=DL_Inventories;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -52,7 +47,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYLtBshsyV0KPiJ2jUTAxIwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABMI74S7h7k7gSXBrArLhEi6P3WbRwdZqGT7E+71Q8zYQAAAAAOgAAAAAIAACAAAAC/FXK7zsD6NF5FSSkIeV1cZ1eRCyRWkkPRoilgi8CmliAAAAC8GSmGmHbr5neJLWJxn3D9fb+OUPQ3wAqj85IpDNtUwEAAAADU94raEDtiH2bWUVRmbbwu7+Lt70CgsidydiSe3/yOcjgoERMErvAwOjtAPI8YlFnjymBKpfW2b2vpioU2t0FL</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIkGw0p2q6U+2GwfPiryCYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACeNc9sQX625l8QCo3X5+7jXLCRPoLn+Zfyyhn2Sh/rkgAAAAAOgAAAAAIAACAAAAAfthAhNK/BZ9brXQ8Za3U9rFoA0Y8KYV75bcxP7I/i8yAAAAD9+xsjYR+PCv3cDLZpBsfxwKeHBoeWWoITNfLbzQ2m1EAAAADR6Z+zQ9bOpqXsUXCNnTgdX3XLTT3F/RxV0ttVWhZp+2I52Z8cL20sEqbKm0htX42Oc50NsDWYoAuFJ6KzoNlr</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -67,7 +62,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYLtBshsyV0KPiJ2jUTAxIwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACGUgzdJu7ltUaMQyeCAa/kKTZ8Jv4oZQsMhDKL5ru1MAAAAAAOgAAAAAIAACAAAACCLZ8BhV0B/eL7qbjDFkmu7OyP2n4/31MTe5Zt0lE/hiAAAADgPHCqwZUxtqczd77e1bAMc/l2F7os73C9RJmTi0jo/0AAAAASz1UGql/Nxm5zkh4iZGB1VePO79NMlnSFabsWJrv15145VOKdHuzmtVtFPGC8+RIeThsyL+mtfdOt2dYkXP+C</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIkGw0p2q6U+2GwfPiryCYwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC6Fe6vlv+6XbtTTCxrgVYfv+DF0TF5uT0nQ2XxNCeF2gAAAAAOgAAAAAIAACAAAAArd+5uuKKrfTF3uq5yw9KZDAwbw1FXHgJ2W1I5+GyZhyAAAABzDeVT9vRBf8A8sAteUjPP9Vn+wshTk1uL5wpVL3RX+0AAAADK1Ld9/jpjoudChLlpec6uF+sOkKZ/kOFeCE5yWXbEUbJblPWsCtDwgPw3l/zl3ozFQSYZcIbB1FfvkLrglYvz</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -78,12 +73,7 @@
       DTS:ObjectName="com-danliris-sqlserver.database.windows.net,1433.com-danliris-db-purchasing.danliris">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=com-danliris-sqlserver.database.windows.net,1433;User ID=danliris;Initial Catalog=com-danliris-db-purchasing;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYLtBshsyV0KPiJ2jUTAxIwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACOpKLnAYLY5EPyx3mfNq4PsvAoWGTqGvAQC/pt5UIBSAAAAAAOgAAAAAIAACAAAABQEP3YGlN1UCaYsW+rMsHzFqIqX1v1hXTLYjkzMZ61GiAAAABaLXKKlCBld+DuPHvMA55D1mjtaax2ucVoQ6qVbZbvCEAAAAAmRSJfvmXGuUTG02ojviBUNlrMHAqcPW66YC/dwcb8tR4BkuejApt0pmnSo0YALzmC8ZICVkLMSWy68ky8Tupo</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=com-danliris-sqlserver.database.windows.net,1433;User ID=danliris;Initial Catalog=com-danliris-db-purchasing;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -162,8 +152,8 @@
               <connections>
                 <connection
                   refId="Package\BC\Insert Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -171,7 +161,7 @@
                 <input
                   refId="Package\BC\Insert Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
-                  errorRowDisposition="FailComponent"
+                  errorRowDisposition="RedirectRow"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
@@ -371,6 +361,30 @@
               </outputs>
             </component>
             <component
+              refId="Package\BC\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\BC\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\BC\Multicast.Outputs[Multicast Output 1]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\BC\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\BC\OLE DB Command"
               componentClassID="Microsoft.OLEDBCommand"
               contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
@@ -397,8 +411,8 @@
               <connections>
                 <connection
                   refId="Package\BC\OLE DB Command.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -672,7 +686,7 @@
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">1</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                   </externalMetadataColumns>
@@ -737,8 +751,8 @@
               <connections>
                 <connection
                   refId="Package\BC\OLE DB Command 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1012,7 +1026,7 @@
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">1</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                   </externalMetadataColumns>
@@ -1484,8 +1498,8 @@ where IsDeleted=0</property>
               <connections>
                 <connection
                   refId="Package\BC\Slowly Changing Dimension.Connections[LookupConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="Defines the connection to use for lookups in the dimension table"
                   name="LookupConnection" />
               </connections>
@@ -1831,6 +1845,11 @@ where IsDeleted=0</property>
               name="New Output"
               startId="Package\BC\Slowly Changing Dimension.Outputs[New Output]" />
             <path
+              refId="Package\BC.Paths[OLE DB Destination Error Output]"
+              endId="Package\BC\Multicast.Inputs[Multicast Input 1]"
+              name="OLE DB Destination Error Output"
+              startId="Package\BC\Insert Destination.Outputs[OLE DB Destination Error Output]" />
+            <path
               refId="Package\BC.Paths[OLE DB Source Output]"
               endId="Package\BC\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
               name="OLE DB Source Output"
@@ -1883,6 +1902,689 @@ where IsDeleted=0</property>
         <pipeline
           version="1">
           <components>
+            <component
+              refId="Package\Detail_Invoice\Insert Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Insert Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[DETAIL_INVOICE]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Detail_Invoice\Insert Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].Columns[DetailInvoiceId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DetailInvoiceId"
+                      externalMetadataColumnId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[DetailInvoiceId]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[DetailInvoiceId]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].Columns[InvoiceId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="InvoiceId"
+                      externalMetadataColumnId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[InvoiceId]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoiceId]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].Columns[DetailShippingOrderId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DetailShippingOrderId"
+                      externalMetadataColumnId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[DetailShippingOrderId]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[DetailShippingOrderId]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].Columns[InvoiceQuantity]"
+                      cachedDataType="r8"
+                      cachedName="InvoiceQuantity"
+                      externalMetadataColumnId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[InvoiceQuantity]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoiceQuantity]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].Columns[InvoicePrice]"
+                      cachedDataType="cy"
+                      cachedName="InvoicePrice"
+                      externalMetadataColumnId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[InvoicePrice]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoicePrice]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].Columns[CurrencyCode]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CurrencyCode"
+                      externalMetadataColumnId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[InvoiceCurrency]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[CurrencyCode]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].Columns[ValueAdded]"
+                      cachedDataType="r8"
+                      cachedName="ValueAdded"
+                      externalMetadataColumnId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[ValueAddedTax]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[ValueAdded]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].Columns[IncomeTax]"
+                      cachedDataType="r8"
+                      cachedName="IncomeTax"
+                      externalMetadataColumnId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[IncomeTax]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[IncomeTax]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[DetailInvoiceId]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="DetailInvoiceId" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[InvoiceId]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="InvoiceId" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[DetailShippingOrderId]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="DetailShippingOrderId" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[InvoiceQuantity]"
+                      dataType="r8"
+                      name="InvoiceQuantity" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[InvoicePrice]"
+                      dataType="cy"
+                      name="InvoicePrice" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[InvoiceCurrency]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="InvoiceCurrency" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[ValueAddedTax]"
+                      dataType="r8"
+                      name="ValueAddedTax" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[IncomeTax]"
+                      dataType="r8"
+                      name="IncomeTax" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Detail_Invoice\Insert Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Detail_Invoice\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Detail_Invoice\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Detail_Invoice\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Detail_Invoice\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\Detail_Invoice\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Detail_Invoice\Multicast.Outputs[Multicast Output 1]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\Detail_Invoice\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Detail_Invoice\OLE DB Command"
+              componentClassID="Microsoft.OLEDBCommand"
+              contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+              description="Runs an SQL statement for each row in a data flow. For example, call a 'new employee setup' stored procedure for each row in the 'new employees' table. Note: running an SQL statement for each row of a large data flow may take a long time."
+              name="OLE DB Command"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">UPDATE [dbo].[DETAIL_INVOICE] SET [DetailShippingOrderId] = ?,[IncomeTax] = ?,[InvoiceCurrency] = ?,[InvoiceId] = ?,[InvoicePrice] = ?,[InvoiceQuantity] = ?,[ValueAddedTax] = ? WHERE [DetailInvoiceId] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Detail_Invoice\OLE DB Command.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input]"
+                  errorOrTruncationOperation="Command Execution"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Command Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].Columns[DetailInvoiceId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DetailInvoiceId"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_7]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[DetailInvoiceId]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].Columns[DetailShippingOrderId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DetailShippingOrderId"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[DetailShippingOrderId]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].Columns[IncomeTax]"
+                      cachedDataType="r8"
+                      cachedName="IncomeTax"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[IncomeTax]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].Columns[CurrencyCode]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CurrencyCode"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[CurrencyCode]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].Columns[InvoiceId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="InvoiceId"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoiceId]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].Columns[InvoicePrice]"
+                      cachedDataType="cy"
+                      cachedName="InvoicePrice"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoicePrice]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].Columns[InvoiceQuantity]"
+                      cachedDataType="r8"
+                      cachedName="InvoiceQuantity"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoiceQuantity]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].Columns[ValueAdded]"
+                      cachedDataType="r8"
+                      cachedName="ValueAdded"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[ValueAdded]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Param_0">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      dataType="r8"
+                      name="Param_1">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Param_2">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="Param_3">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      dataType="cy"
+                      name="Param_4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                      dataType="r8"
+                      name="Param_5">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      dataType="r8"
+                      name="Param_6">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_7]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Param_7">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Detail_Invoice\OLE DB Command.Outputs[OLE DB Command Output]"
+                  exclusionGroup="1"
+                  name="OLE DB Command Output"
+                  synchronousInputId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Detail_Invoice\OLE DB Command.Outputs[OLE DB Command Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Command Error Output"
+                  synchronousInputId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Detail_Invoice\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Detail_Invoice\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Detail_Invoice\OLE DB Command 1"
+              componentClassID="Microsoft.OLEDBCommand"
+              contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+              description="Runs an SQL statement for each row in a data flow. For example, call a 'new employee setup' stored procedure for each row in the 'new employees' table. Note: running an SQL statement for each row of a large data flow may take a long time."
+              name="OLE DB Command 1"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">UPDATE [dbo].[DETAIL_INVOICE] SET [DetailShippingOrderId] = ?,[IncomeTax] = ?,[InvoiceCurrency] = ?,[InvoiceId] = ?,[InvoicePrice] = ?,[InvoiceQuantity] = ?,[ValueAddedTax] = ? WHERE [DetailInvoiceId] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Detail_Invoice\OLE DB Command 1.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input]"
+                  errorOrTruncationOperation="Command Execution"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Command Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[DetailInvoiceId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DetailInvoiceId"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_7]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[DetailInvoiceId]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[DetailShippingOrderId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DetailShippingOrderId"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[DetailShippingOrderId]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[IncomeTax]"
+                      cachedDataType="r8"
+                      cachedName="IncomeTax"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[IncomeTax]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[CurrencyCode]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CurrencyCode"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[CurrencyCode]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[InvoiceId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="InvoiceId"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoiceId]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[InvoicePrice]"
+                      cachedDataType="cy"
+                      cachedName="InvoicePrice"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoicePrice]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[InvoiceQuantity]"
+                      cachedDataType="r8"
+                      cachedName="InvoiceQuantity"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoiceQuantity]" />
+                    <inputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[ValueAdded]"
+                      cachedDataType="r8"
+                      cachedName="ValueAdded"
+                      externalMetadataColumnId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[ValueAdded]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Param_0">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      dataType="r8"
+                      name="Param_1">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Param_2">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="Param_3">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      dataType="cy"
+                      name="Param_4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                      dataType="r8"
+                      name="Param_5">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      dataType="r8"
+                      name="Param_6">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_7]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Param_7">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Detail_Invoice\OLE DB Command 1.Outputs[OLE DB Command Output]"
+                  exclusionGroup="1"
+                  name="OLE DB Command Output"
+                  synchronousInputId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Detail_Invoice\OLE DB Command 1.Outputs[OLE DB Command Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Command Error Output"
+                  synchronousInputId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Detail_Invoice\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Detail_Invoice\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Detail_Invoice\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
             <component
               refId="Package\Detail_Invoice\OLE DB Source 1"
               componentClassID="Microsoft.OLEDBSource"
@@ -2144,7 +2846,298 @@ where s.IsDeleted=0 and c.IsDeleted=0 and b.IsDeleted=0</property>
                 </output>
               </outputs>
             </component>
+            <component
+              refId="Package\Detail_Invoice\Slowly Changing Dimension"
+              componentClassID="Microsoft.SCD"
+              contactInfo="Slowly Changing Dimension;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
+              description="Updates a SQL Server Analysis Services data warehouse dimension. Update dimension records that are already present and  insert dimension records that aren't. For example, update the DimProduct table of the AdventureWorksDW OLAP database with data from the Products table in the AdventureWorks OLTP database."
+              name="Slowly Changing Dimension"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SELECT statement used to create a schema rowset."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">SELECT [DetailInvoiceId], [DetailShippingOrderId], [IncomeTax], [InvoiceCurrency], [InvoiceId], [InvoicePrice], [InvoiceQuantity], [ValueAddedTax] FROM [dbo].[DETAIL_INVOICE]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the WHERE clause in the SELECT statement that selects the current row among rows with identical business keys."
+                  name="CurrentRowWhere"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether historical attribute updates are directed to the transformation output for changing attribute updates."
+                  name="UpdateChangingAttributeHistory">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the transformation fails when columns with fixed attributes contain changes."
+                  name="FailOnFixedAttributeChange">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the column name for the inferred member."
+                  name="InferredMemberIndicator"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether inferred member updates are detected."
+                  name="EnableInferredMember">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the transformation fails when a lookup of an existing record fails."
+                  name="FailOnLookupFailure">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies that all rows in the input are new or the transformation detects the change type."
+                  name="IncomingRowChangeType"
+                  typeConverter="IncomingRowChangeType">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Detail_Invoice\Slowly Changing Dimension.Connections[LookupConnection]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  description="Defines the connection to use for lookups in the dimension table"
+                  name="LookupConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+                  name="Slowly Changing Dimension Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[DetailInvoiceId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DetailInvoiceId"
+                      externalMetadataColumnId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[DetailInvoiceId]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[DetailInvoiceId]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[DetailShippingOrderId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DetailShippingOrderId"
+                      externalMetadataColumnId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[DetailShippingOrderId]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[DetailShippingOrderId]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[IncomeTax]"
+                      cachedDataType="r8"
+                      cachedName="IncomeTax"
+                      externalMetadataColumnId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[IncomeTax]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[IncomeTax]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[CurrencyCode]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CurrencyCode"
+                      externalMetadataColumnId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[InvoiceCurrency]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[CurrencyCode]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[InvoiceId]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="InvoiceId"
+                      externalMetadataColumnId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[InvoiceId]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoiceId]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[InvoicePrice]"
+                      cachedDataType="cy"
+                      cachedName="InvoicePrice"
+                      externalMetadataColumnId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[InvoicePrice]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoicePrice]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[InvoiceQuantity]"
+                      cachedDataType="r8"
+                      cachedName="InvoiceQuantity"
+                      externalMetadataColumnId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[InvoiceQuantity]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoiceQuantity]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[ValueAdded]"
+                      cachedDataType="r8"
+                      cachedName="ValueAdded"
+                      externalMetadataColumnId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ValueAddedTax]"
+                      lineageId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[ValueAdded]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[DetailInvoiceId]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="DetailInvoiceId" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[DetailShippingOrderId]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="DetailShippingOrderId" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[IncomeTax]"
+                      dataType="r8"
+                      name="IncomeTax" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[InvoiceCurrency]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="InvoiceCurrency" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[InvoiceId]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="InvoiceId" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[InvoicePrice]"
+                      dataType="cy"
+                      name="InvoicePrice" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[InvoiceQuantity]"
+                      dataType="r8"
+                      name="InvoiceQuantity" />
+                    <externalMetadataColumn
+                      refId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ValueAddedTax]"
+                      dataType="r8"
+                      name="ValueAddedTax" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Detail_Invoice\Slowly Changing Dimension.Outputs[Unchanged Output]"
+                  description="Unchanged rows"
+                  exclusionGroup="1"
+                  name="Unchanged Output"
+                  synchronousInputId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Detail_Invoice\Slowly Changing Dimension.Outputs[New Output]"
+                  description="New rows"
+                  exclusionGroup="1"
+                  name="New Output"
+                  synchronousInputId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Detail_Invoice\Slowly Changing Dimension.Outputs[Fixed Attribute Output]"
+                  description="Rows with changes in columns tagged FixedAttribute"
+                  exclusionGroup="1"
+                  name="Fixed Attribute Output"
+                  synchronousInputId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Detail_Invoice\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]"
+                  description="These rows contain new information for ChangingAttribute (Type 1) column changes"
+                  exclusionGroup="1"
+                  name="Changing Attribute Updates Output"
+                  synchronousInputId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Detail_Invoice\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]"
+                  description="HistoricalAttribute (Type 2) changes result in these new rows"
+                  exclusionGroup="2"
+                  name="Historical Attribute Inserts Output"
+                  synchronousInputId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Detail_Invoice\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]"
+                  description="Information to update unpopulated initial dimension row"
+                  exclusionGroup="1"
+                  name="Inferred Member Updates Output"
+                  synchronousInputId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
           </components>
+          <paths>
+            <path
+              refId="Package\Detail_Invoice.Paths[Changing Attribute Updates Output]"
+              endId="Package\Detail_Invoice\OLE DB Command 1.Inputs[OLE DB Command Input]"
+              name="Changing Attribute Updates Output"
+              startId="Package\Detail_Invoice\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]" />
+            <path
+              refId="Package\Detail_Invoice.Paths[Inferred Member Updates Output]"
+              endId="Package\Detail_Invoice\OLE DB Command.Inputs[OLE DB Command Input]"
+              name="Inferred Member Updates Output"
+              startId="Package\Detail_Invoice\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]" />
+            <path
+              refId="Package\Detail_Invoice.Paths[New Output]"
+              endId="Package\Detail_Invoice\Insert Destination.Inputs[OLE DB Destination Input]"
+              name="New Output"
+              startId="Package\Detail_Invoice\Slowly Changing Dimension.Outputs[New Output]" />
+            <path
+              refId="Package\Detail_Invoice.Paths[OLE DB Source Output]"
+              endId="Package\Detail_Invoice\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+              name="OLE DB Source Output"
+              startId="Package\Detail_Invoice\OLE DB Source 1.Outputs[OLE DB Source Output]" />
+          </paths>
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
@@ -2236,8 +3229,8 @@ where s.IsDeleted=0 and c.IsDeleted=0 and b.IsDeleted=0</property>
               <connections>
                 <connection
                   refId="Package\DETAIL_SHIPPING_ORDER\Insert Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2245,7 +3238,7 @@ where s.IsDeleted=0 and c.IsDeleted=0 and b.IsDeleted=0</property>
                 <input
                   refId="Package\DETAIL_SHIPPING_ORDER\Insert Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
-                  errorRowDisposition="FailComponent"
+                  errorRowDisposition="RedirectRow"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
@@ -2729,6 +3722,30 @@ where [refTable].[UnitQtyName] = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\DETAIL_SHIPPING_ORDER\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\DETAIL_SHIPPING_ORDER\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DETAIL_SHIPPING_ORDER\Multicast.Outputs[Multicast Output 1]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\DETAIL_SHIPPING_ORDER\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\DETAIL_SHIPPING_ORDER\OLE DB Command"
               componentClassID="Microsoft.OLEDBCommand"
               contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
@@ -2755,8 +3772,8 @@ where [refTable].[UnitQtyName] = ?</property>
               <connections>
                 <connection
                   refId="Package\DETAIL_SHIPPING_ORDER\OLE DB Command.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2945,7 +3962,7 @@ where [refTable].[UnitQtyName] = ?</property>
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">1</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                   </externalMetadataColumns>
@@ -3010,8 +4027,8 @@ where [refTable].[UnitQtyName] = ?</property>
               <connections>
                 <connection
                   refId="Package\DETAIL_SHIPPING_ORDER\OLE DB Command 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3200,7 +4217,7 @@ where [refTable].[UnitQtyName] = ?</property>
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">1</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                   </externalMetadataColumns>
@@ -3578,8 +4595,8 @@ where BillNo is not null and o.IsDeleted=0</property>
               <connections>
                 <connection
                   refId="Package\DETAIL_SHIPPING_ORDER\Slowly Changing Dimension.Connections[LookupConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="Defines the connection to use for lookups in the dimension table"
                   name="LookupConnection" />
               </connections>
@@ -3850,6 +4867,11 @@ where BillNo is not null and o.IsDeleted=0</property>
               name="New Output"
               startId="Package\DETAIL_SHIPPING_ORDER\Slowly Changing Dimension.Outputs[New Output]" />
             <path
+              refId="Package\DETAIL_SHIPPING_ORDER.Paths[OLE DB Destination Error Output]"
+              endId="Package\DETAIL_SHIPPING_ORDER\Multicast.Inputs[Multicast Input 1]"
+              name="OLE DB Destination Error Output"
+              startId="Package\DETAIL_SHIPPING_ORDER\Insert Destination.Outputs[OLE DB Destination Error Output]" />
+            <path
               refId="Package\DETAIL_SHIPPING_ORDER.Paths[OLE DB Source Output]"
               endId="Package\DETAIL_SHIPPING_ORDER\Lookup.Inputs[Lookup Input]"
               name="OLE DB Source Output"
@@ -3946,8 +4968,8 @@ where BillNo is not null and o.IsDeleted=0</property>
               <connections>
                 <connection
                   refId="Package\NI\Insert Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3955,7 +4977,7 @@ where BillNo is not null and o.IsDeleted=0</property>
                 <input
                   refId="Package\NI\Insert Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
-                  errorRowDisposition="FailComponent"
+                  errorRowDisposition="RedirectRow"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
@@ -4104,6 +5126,30 @@ where BillNo is not null and o.IsDeleted=0</property>
               </outputs>
             </component>
             <component
+              refId="Package\NI\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\NI\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\NI\Multicast.Outputs[Multicast Output 1]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\NI\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\NI\OLE DB Command"
               componentClassID="Microsoft.OLEDBCommand"
               contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
@@ -4130,8 +5176,8 @@ where BillNo is not null and o.IsDeleted=0</property>
               <connections>
                 <connection
                   refId="Package\NI\OLE DB Command.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4274,7 +5320,7 @@ where BillNo is not null and o.IsDeleted=0</property>
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">1</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                   </externalMetadataColumns>
@@ -4339,8 +5385,8 @@ where BillNo is not null and o.IsDeleted=0</property>
               <connections>
                 <connection
                   refId="Package\NI\OLE DB Command 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4483,7 +5529,7 @@ where BillNo is not null and o.IsDeleted=0</property>
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">1</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                   </externalMetadataColumns>
@@ -4808,8 +5854,8 @@ where s.IsDeleted=0</property>
               <connections>
                 <connection
                   refId="Package\NI\Slowly Changing Dimension.Connections[LookupConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="Defines the connection to use for lookups in the dimension table"
                   name="LookupConnection" />
               </connections>
@@ -5024,6 +6070,11 @@ where s.IsDeleted=0</property>
               name="New Output"
               startId="Package\NI\Slowly Changing Dimension.Outputs[New Output]" />
             <path
+              refId="Package\NI.Paths[OLE DB Destination Error Output]"
+              endId="Package\NI\Multicast.Inputs[Multicast Input 1]"
+              name="OLE DB Destination Error Output"
+              startId="Package\NI\Insert Destination.Outputs[OLE DB Destination Error Output]" />
+            <path
               refId="Package\NI.Paths[OLE DB Source Output]"
               endId="Package\NI\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
               name="OLE DB Source Output"
@@ -5105,8 +6156,8 @@ where s.IsDeleted=0</property>
               <connections>
                 <connection
                   refId="Package\po\Insert Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -5114,7 +6165,7 @@ where s.IsDeleted=0</property>
                 <input
                   refId="Package\po\Insert Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
-                  errorRowDisposition="FailComponent"
+                  errorRowDisposition="RedirectRow"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
@@ -5782,6 +6833,30 @@ where [refTable].[UnitQtyName] = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\po\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\po\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\po\Multicast.Outputs[Multicast Output 1]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\po\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\po\OLE DB Command"
               componentClassID="Microsoft.OLEDBCommand"
               contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
@@ -5808,8 +6883,8 @@ where [refTable].[UnitQtyName] = ?</property>
               <connections>
                 <connection
                   refId="Package\po\OLE DB Command.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -6302,7 +7377,7 @@ where [refTable].[UnitQtyName] = ?</property>
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">1</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                   </externalMetadataColumns>
@@ -6367,8 +7442,8 @@ where [refTable].[UnitQtyName] = ?</property>
               <connections>
                 <connection
                   refId="Package\po\OLE DB Command 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -6861,7 +7936,7 @@ where [refTable].[UnitQtyName] = ?</property>
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">1</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                   </externalMetadataColumns>
@@ -7580,8 +8655,8 @@ where p.IsDeleted=0 and DOQuantity &gt;0</property>
               <connections>
                 <connection
                   refId="Package\po\Slowly Changing Dimension.Connections[LookupConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="Defines the connection to use for lookups in the dimension table"
                   name="LookupConnection" />
               </connections>
@@ -8156,6 +9231,11 @@ where p.IsDeleted=0 and DOQuantity &gt;0</property>
               name="New Output"
               startId="Package\po\Slowly Changing Dimension.Outputs[New Output]" />
             <path
+              refId="Package\po.Paths[OLE DB Destination Error Output]"
+              endId="Package\po\Multicast.Inputs[Multicast Input 1]"
+              name="OLE DB Destination Error Output"
+              startId="Package\po\Insert Destination.Outputs[OLE DB Destination Error Output]" />
+            <path
               refId="Package\po.Paths[OLE DB Source Output]"
               endId="Package\po\Lookup.Inputs[Lookup Input]"
               name="OLE DB Source Output"
@@ -8252,8 +9332,8 @@ where p.IsDeleted=0 and DOQuantity &gt;0</property>
               <connections>
                 <connection
                   refId="Package\SHIPPING_ORDER\Insert Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -8261,7 +9341,7 @@ where p.IsDeleted=0 and DOQuantity &gt;0</property>
                 <input
                   refId="Package\SHIPPING_ORDER\Insert Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
-                  errorRowDisposition="FailComponent"
+                  errorRowDisposition="RedirectRow"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
@@ -8540,6 +9620,30 @@ where p.IsDeleted=0 and DOQuantity &gt;0</property>
               </outputs>
             </component>
             <component
+              refId="Package\SHIPPING_ORDER\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\SHIPPING_ORDER\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\SHIPPING_ORDER\Multicast.Outputs[Multicast Output 1]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\SHIPPING_ORDER\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\SHIPPING_ORDER\OLE DB Command"
               componentClassID="Microsoft.OLEDBCommand"
               contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
@@ -8566,8 +9670,8 @@ where p.IsDeleted=0 and DOQuantity &gt;0</property>
               <connections>
                 <connection
                   refId="Package\SHIPPING_ORDER\OLE DB Command.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -8925,7 +10029,7 @@ where p.IsDeleted=0 and DOQuantity &gt;0</property>
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">1</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                   </externalMetadataColumns>
@@ -8990,8 +10094,8 @@ where p.IsDeleted=0 and DOQuantity &gt;0</property>
               <connections>
                 <connection
                   refId="Package\SHIPPING_ORDER\OLE DB Command 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -9349,7 +10453,7 @@ where p.IsDeleted=0 and DOQuantity &gt;0</property>
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">1</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                   </externalMetadataColumns>
@@ -9938,8 +11042,8 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
               <connections>
                 <connection
                   refId="Package\SHIPPING_ORDER\Slowly Changing Dimension.Connections[LookupConnection]"
-                  connectionManagerID="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[192.168.1.6.DL_Supports.sa]"
+                  connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
+                  connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.testDb]"
                   description="Defines the connection to use for lookups in the dimension table"
                   name="LookupConnection" />
               </connections>
@@ -10369,6 +11473,11 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
               name="New Output"
               startId="Package\SHIPPING_ORDER\Slowly Changing Dimension.Outputs[New Output]" />
             <path
+              refId="Package\SHIPPING_ORDER.Paths[OLE DB Destination Error Output]"
+              endId="Package\SHIPPING_ORDER\Multicast.Inputs[Multicast Input 1]"
+              name="OLE DB Destination Error Output"
+              startId="Package\SHIPPING_ORDER\Insert Destination.Outputs[OLE DB Destination Error Output]" />
+            <path
               refId="Package\SHIPPING_ORDER.Paths[OLE DB Source Output]"
               endId="Package\SHIPPING_ORDER\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
               name="OLE DB Source Output"
@@ -10477,6 +11586,22 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
           Id="Package\BC"
           TopLeft="135,613" />
         <NodeLayout
+          Size="156,42"
+          Id="Package\COrrection_note"
+          TopLeft="130,1003" />
+        <NodeLayout
+          Size="189,42"
+          Id="Package\Detaiil_Correction_note"
+          TopLeft="123,924" />
+        <NodeLayout
+          Size="146,42"
+          Id="Package\Detail_Invoice"
+          TopLeft="125,773" />
+        <NodeLayout
+          Size="202,42"
+          Id="Package\DETAIL_RECEIPT_GOODS"
+          TopLeft="116,1084" />
+        <NodeLayout
           Size="207,42"
           Id="Package\DETAIL_SHIPPING_ORDER"
           TopLeft="101,436" />
@@ -10488,10 +11613,6 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
           Size="90,42"
           Id="Package\NI"
           TopLeft="139,702" />
-        <NodeLayout
-          Size="156,42"
-          Id="Package\COrrection_note"
-          TopLeft="130,1003" />
         <NodeLayout
           Size="91,42"
           Id="Package\po"
@@ -10583,44 +11704,6 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="204.5,478">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-20.5,54"
-              Start="0,0"
-              End="-20.5,46.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23"
-                    Point2="0,27"
-                    Point3="-4,27" />
-                  <mssgle:LineSegment
-                    End="-16.5,27" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-16.5,27"
-                    Point2="-20.5,27"
-                    Point3="-20.5,31" />
-                  <mssgle:LineSegment
-                    End="-20.5,46.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="146,42"
-          Id="Package\Detail_Invoice"
-          TopLeft="125,773" />
-        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
           TopLeft="184,744">
           <EdgeLayout.Curve>
@@ -10655,44 +11738,6 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="198,815">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-9.5,24"
-              Start="0,0"
-              End="-9.5,16.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,8" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,8"
-                    Point2="0,12"
-                    Point3="-4,12" />
-                  <mssgle:LineSegment
-                    End="-5.5,12" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-5.5,12"
-                    Point2="-9.5,12"
-                    Point3="-9.5,16" />
-                  <mssgle:LineSegment
-                    End="-9.5,16.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="189,42"
-          Id="Package\Detaiil_Correction_note"
-          TopLeft="123,924" />
-        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
           TopLeft="217.5,966">
           <EdgeLayout.Curve>
@@ -10726,10 +11771,6 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="202,42"
-          Id="Package\DETAIL_RECEIPT_GOODS"
-          TopLeft="116,1084" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
           TopLeft="217,1126">
@@ -10756,6 +11797,74 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
                     Point3="-22.5,26" />
                   <mssgle:LineSegment
                     End="-22.5,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 6]"
+          TopLeft="204.5,478">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-20.5,54"
+              Start="0,0"
+              End="-20.5,46.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23"
+                    Point2="0,27"
+                    Point3="-4,27" />
+                  <mssgle:LineSegment
+                    End="-16.5,27" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-16.5,27"
+                    Point2="-20.5,27"
+                    Point3="-20.5,31" />
+                  <mssgle:LineSegment
+                    End="-20.5,46.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 7]"
+          TopLeft="198,815">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-9.5,24"
+              Start="0,0"
+              End="-9.5,16.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8"
+                    Point2="0,12"
+                    Point3="-4,12" />
+                  <mssgle:LineSegment
+                    End="-5.5,12" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.5,12"
+                    Point2="-9.5,12"
+                    Point3="-9.5,16" />
+                  <mssgle:LineSegment
+                    End="-9.5,16.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10978,9 +12087,319 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="120,42"
+          Id="Package\BC\Multicast"
+          TopLeft="28,318" />
+        <EdgeLayout
+          Id="Package\BC.Paths[OLE DB Destination Error Output]"
+          TopLeft="87.5,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,66.5000000000001"
+              Start="0,0"
+              End="0,59.0000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,59.0000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-81.8700390625,21.5000000000001,163.740078125,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\BC\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\BC\Slowly Changing Dimension">
+    <Properties>
+      <Property>
+        <Name>SCDMetadata</Name>
+        <Value
+          type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionID&gt;{8BCDA197-5B46-48D8-A015-47DA8BA341E0}&lt;/ConnectionID&gt;
+  &lt;TableName&gt;[dbo].[BEACUKAI]&lt;/TableName&gt;
+  &lt;InputToColumnsCollection&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[BCDate]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;BCDate&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[BCId]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;BCId&lt;/ColumnName&gt;
+      &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
+      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[BCNo]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;BCNo&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[BCType]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;BCType&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Bruto]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Bruto&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[CreateDate]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;CreateDate&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[CreateUserId]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;CreateUserId&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[IsPost]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;IsPost&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Netto]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Netto&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Pack]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Pack&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[QtyTot]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;QtyTot&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[UpdateDate]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;UpdateDate&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[UpdateUserId]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;UpdateUserId&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[ValidationDate]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ValidationDate&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+  &lt;/InputToColumnsCollection&gt;
+  &lt;GeneratedComponentsIdentificationStrings&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 1&lt;/anyType&gt;
+  &lt;/GeneratedComponentsIdentificationStrings&gt;
+  &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
+  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
+  &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
+  &lt;CurrentIndicatorColumn /&gt;
+  &lt;InferredIndicatorColumn /&gt;
+  &lt;ValueCurrent /&gt;
+  &lt;ValueExpired /&gt;
+  &lt;StartDateColumn /&gt;
+  &lt;EndDateColumn /&gt;
+  &lt;DateVariable /&gt;
+  &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
+&lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Detail_Invoice">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="159,42"
+          Id="Package\Detail_Invoice\OLE DB Source 1"
+          TopLeft="232.5,5.49999999999989" />
+        <NodeLayout
+          Size="209,42"
+          Id="Package\Detail_Invoice\Slowly Changing Dimension"
+          TopLeft="207.5,107.5" />
+        <EdgeLayout
+          Id="Package\Detail_Invoice.Paths[OLE DB Source Output]"
+          TopLeft="312,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Detail_Invoice\Insert Destination"
+          TopLeft="5.50000000000006,209.5" />
+        <EdgeLayout
+          Id="Package\Detail_Invoice.Paths[New Output]"
+          TopLeft="261.75,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-174.75,60"
+              Start="0,0"
+              End="-174.75,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.503937007874" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.503937007874"
+                    Point2="0,20.503937007874"
+                    Point3="-4,20.503937007874" />
+                  <mssgle:LineSegment
+                    End="-170.75,20.503937007874" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-170.75,20.503937007874"
+                    Point2="-174.75,20.503937007874"
+                    Point3="-174.75,24.503937007874" />
+                  <mssgle:LineSegment
+                    End="-174.75,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-123.3350390625,25.503937007874,71.920078125,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Detail_Invoice\OLE DB Command"
+          TopLeft="229,209.5" />
+        <EdgeLayout
+          Id="Package\Detail_Invoice.Paths[Inferred Member Updates Output]"
+          TopLeft="312,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-74.40298828125,20.4208984375,148.8059765625,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Detail_Invoice\OLE DB Command 1"
+          TopLeft="455.5,209.5" />
+        <EdgeLayout
+          Id="Package\Detail_Invoice.Paths[Changing Attribute Updates Output]"
+          TopLeft="362.25,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="180.75,60"
+              Start="0,0"
+              End="180.75,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.503937007874" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.503937007874"
+                    Point2="0,20.503937007874"
+                    Point3="4,20.503937007874" />
+                  <mssgle:LineSegment
+                    End="176.75,20.503937007874" />
+                  <mssgle:CubicBezierSegment
+                    Point1="176.75,20.503937007874"
+                    Point2="180.75,20.503937007874"
+                    Point3="180.75,24.503937007874" />
+                  <mssgle:LineSegment
+                    End="180.75,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="11.84109375,25.503937007874,157.0678125,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="120,42"
+          Id="Package\Detail_Invoice\Multicast"
+          TopLeft="25,307" />
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Detail_Invoice\OLE DB Source 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\DETAIL_SHIPPING_ORDER">
     <LayoutInfo>
@@ -10999,21 +12418,9 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
           Id="Package\DETAIL_SHIPPING_ORDER\Slowly Changing Dimension"
           TopLeft="207.5,311.5" />
         <NodeLayout
-          Size="175,42"
-          Id="Package\DETAIL_SHIPPING_ORDER\OLE DB Command 1"
-          TopLeft="455.5,413.5" />
-        <NodeLayout
           Size="113,42"
           Id="Package\DETAIL_SHIPPING_ORDER\Lookup"
           TopLeft="255.5,107.5" />
-        <NodeLayout
-          Size="166,42"
-          Id="Package\DETAIL_SHIPPING_ORDER\OLE DB Command"
-          TopLeft="229,413.5" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\DETAIL_SHIPPING_ORDER\Insert Destination"
-          TopLeft="5.50000000000006,413.5" />
         <EdgeLayout
           Id="Package\DETAIL_SHIPPING_ORDER.Paths[Lookup Match Output1]"
           TopLeft="312,251.5">
@@ -11063,6 +12470,72 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\DETAIL_SHIPPING_ORDER.Paths[OLE DB Source Output]"
+          TopLeft="312,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\DETAIL_SHIPPING_ORDER\Insert Destination"
+          TopLeft="5.50000000000006,413.5" />
+        <EdgeLayout
+          Id="Package\DETAIL_SHIPPING_ORDER.Paths[New Output]"
+          TopLeft="261.75,353.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-174.75,60"
+              Start="0,0"
+              End="-174.75,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.503937007874" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.503937007874"
+                    Point2="0,20.503937007874"
+                    Point3="-4,20.503937007874" />
+                  <mssgle:LineSegment
+                    End="-170.75,20.503937007874" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-170.75,20.503937007874"
+                    Point2="-174.75,20.503937007874"
+                    Point3="-174.75,24.503937007874" />
+                  <mssgle:LineSegment
+                    End="-174.75,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-114.46638671875,25.503937007874,54.1827734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="166,42"
+          Id="Package\DETAIL_SHIPPING_ORDER\OLE DB Command"
+          TopLeft="229,413.5" />
+        <EdgeLayout
           Id="Package\DETAIL_SHIPPING_ORDER.Paths[Inferred Member Updates Output]"
           TopLeft="312,353.5">
           <EdgeLayout.Curve>
@@ -11086,6 +12559,10 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="175,42"
+          Id="Package\DETAIL_SHIPPING_ORDER\OLE DB Command 1"
+          TopLeft="455.5,413.5" />
         <EdgeLayout
           Id="Package\DETAIL_SHIPPING_ORDER.Paths[Changing Attribute Updates Output]"
           TopLeft="362.25,353.5">
@@ -11122,61 +12599,31 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="120,42"
+          Id="Package\DETAIL_SHIPPING_ORDER\Multicast"
+          TopLeft="25,502" />
         <EdgeLayout
-          Id="Package\DETAIL_SHIPPING_ORDER.Paths[OLE DB Source Output]"
-          TopLeft="312,47.4999999999999">
+          Id="Package\DETAIL_SHIPPING_ORDER.Paths[OLE DB Destination Error Output]"
+          TopLeft="86,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,46.5000000000001"
               Start="0,0"
-              End="0,52.5">
+              End="0,39.0000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DETAIL_SHIPPING_ORDER.Paths[New Output]"
-          TopLeft="261.75,353.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-174.75,60"
-              Start="0,0"
-              End="-174.75,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.503937007874" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.503937007874"
-                    Point2="0,20.503937007874"
-                    Point3="-4,20.503937007874" />
-                  <mssgle:LineSegment
-                    End="-170.75,20.503937007874" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-170.75,20.503937007874"
-                    Point2="-174.75,20.503937007874"
-                    Point3="-174.75,24.503937007874" />
-                  <mssgle:LineSegment
-                    End="-174.75,52.5" />
+                    End="0,39.0000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-114.46638671875,25.503937007874,54.1827734375,11.43359375"
+              BoundingBox="-81.8700390625,11.5000000000001,163.740078125,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -11222,7 +12669,7 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
         <Value
           type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionID&gt;{F0FFBD6B-40D9-42D1-B149-081C7E1F8A75}&lt;/ConnectionID&gt;
+  &lt;ConnectionID&gt;{8BCDA197-5B46-48D8-A015-47DA8BA341E0}&lt;/ConnectionID&gt;
   &lt;TableName&gt;[dbo].[DETAIL_SHIPPING_ORDER]&lt;/TableName&gt;
   &lt;InputToColumnsCollection&gt;
     &lt;InputColumnToDBColumn&gt;
@@ -11331,14 +12778,14 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
         <NodeLayout
           Size="150,42"
           Id="Package\NI\OLE DB Source"
-          TopLeft="237,5.49999999999989" />
+          TopLeft="303,5.49999999999989" />
         <NodeLayout
           Size="209,42"
           Id="Package\NI\Slowly Changing Dimension"
-          TopLeft="207.5,107.5" />
+          TopLeft="273.5,107.5" />
         <EdgeLayout
           Id="Package\NI.Paths[OLE DB Source Output]"
-          TopLeft="312,47.4999999999999">
+          TopLeft="378,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11359,52 +12806,56 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
+          Size="120,42"
+          Id="Package\NI\Multicast"
+          TopLeft="91,313.5" />
+        <NodeLayout
           Size="163,42"
           Id="Package\NI\Insert Destination"
-          TopLeft="5.50000000000006,209.5" />
+          TopLeft="71.5,209.5" />
         <EdgeLayout
           Id="Package\NI.Paths[New Output]"
-          TopLeft="261.75,149.5">
+          TopLeft="327.75,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-174.75,60"
+              EndConnector="-174.75,60.0000000000001"
               Start="0,0"
-              End="-174.75,52.5">
+              End="-174.75,52.5000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.503937007874" />
+                    End="0,16.5039370078741" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16.503937007874"
-                    Point2="0,20.503937007874"
-                    Point3="-4,20.503937007874" />
+                    Point1="0,16.5039370078741"
+                    Point2="0,20.5039370078741"
+                    Point3="-4,20.5039370078741" />
                   <mssgle:LineSegment
-                    End="-170.75,20.503937007874" />
+                    End="-170.75,20.5039370078741" />
                   <mssgle:CubicBezierSegment
-                    Point1="-170.75,20.503937007874"
-                    Point2="-174.75,20.503937007874"
-                    Point3="-174.75,24.503937007874" />
+                    Point1="-170.75,20.5039370078741"
+                    Point2="-174.75,20.5039370078741"
+                    Point3="-174.75,24.5039370078741" />
                   <mssgle:LineSegment
-                    End="-174.75,52.5" />
+                    End="-174.75,52.5000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-114.46638671875,25.503937007874,54.1827734375,11.43359375"
+              BoundingBox="-114.46638671875,25.5039370078741,54.1827734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
           Size="166,42"
           Id="Package\NI\OLE DB Command"
-          TopLeft="229,209.5" />
+          TopLeft="295,209.5" />
         <EdgeLayout
           Id="Package\NI.Paths[Inferred Member Updates Output]"
-          TopLeft="312,149.5">
+          TopLeft="378,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11429,10 +12880,10 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
         <NodeLayout
           Size="175,42"
           Id="Package\NI\OLE DB Command 1"
-          TopLeft="455.5,209.5" />
+          TopLeft="521.5,209.5" />
         <EdgeLayout
           Id="Package\NI.Paths[Changing Attribute Updates Output]"
-          TopLeft="362.25,149.5">
+          TopLeft="428.25,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11462,13 +12913,119 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="11.84109375,25.503937007874,157.0678125,11.6630859375"
+              BoundingBox="11.8410937499999,25.503937007874,157.0678125,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\NI.Paths[OLE DB Destination Error Output]"
+          TopLeft="152,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,61.9999999999999"
+              Start="0,0"
+              End="0,54.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-81.8700390625,19.2499999999999,163.740078125,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\NI\Slowly Changing Dimension">
+    <Properties>
+      <Property>
+        <Name>SCDMetadata</Name>
+        <Value
+          type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionID&gt;{8BCDA197-5B46-48D8-A015-47DA8BA341E0}&lt;/ConnectionID&gt;
+  &lt;TableName&gt;[dbo].[INTERN_NOTE]&lt;/TableName&gt;
+  &lt;InputToColumnsCollection&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[CreateDate]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;CreateDate&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[CreateUserId]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;CreateUserId&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[InternNo]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;InternNo&lt;/ColumnName&gt;
+      &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
+      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[InternNoteTotal]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;InternNoteTotal&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[IsPost]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;IsPost&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[UpdateDate]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;UpdateDate&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[UpdateUserId]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;UpdateUserId&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+  &lt;/InputToColumnsCollection&gt;
+  &lt;GeneratedComponentsIdentificationStrings&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 1&lt;/anyType&gt;
+  &lt;/GeneratedComponentsIdentificationStrings&gt;
+  &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
+  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
+  &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
+  &lt;CurrentIndicatorColumn /&gt;
+  &lt;InferredIndicatorColumn /&gt;
+  &lt;ValueCurrent /&gt;
+  &lt;ValueExpired /&gt;
+  &lt;StartDateColumn /&gt;
+  &lt;EndDateColumn /&gt;
+  &lt;DateVariable /&gt;
+  &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
+&lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\NI\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\po">
     <LayoutInfo>
@@ -11477,22 +13034,22 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
         <NodeLayout
           Size="150,42"
           Id="Package\po\OLE DB Source"
-          TopLeft="237,5.49999999999989" />
+          TopLeft="250,5.49999999999989" />
         <NodeLayout
           Size="122,42"
           Id="Package\po\Lookup 1"
-          TopLeft="251,209.5" />
+          TopLeft="264,209.5" />
         <NodeLayout
           Size="209,42"
           Id="Package\po\Slowly Changing Dimension"
-          TopLeft="207.5,311.5" />
+          TopLeft="220.5,311.5" />
         <NodeLayout
           Size="113,42"
           Id="Package\po\Lookup"
-          TopLeft="255.5,107.5" />
+          TopLeft="268.5,107.5" />
         <EdgeLayout
           Id="Package\po.Paths[Lookup Match Output]"
-          TopLeft="312,149.5">
+          TopLeft="325,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11516,7 +13073,7 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\po.Paths[OLE DB Source Output]"
-          TopLeft="312,47.4999999999999">
+          TopLeft="325,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11538,7 +13095,7 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\po.Paths[Lookup Match Output1]"
-          TopLeft="312,251.5">
+          TopLeft="325,251.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11563,10 +13120,10 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
         <NodeLayout
           Size="163,42"
           Id="Package\po\Insert Destination"
-          TopLeft="5.50000000000006,413.5" />
+          TopLeft="18.5000000000001,413.5" />
         <EdgeLayout
           Id="Package\po.Paths[New Output]"
-          TopLeft="261.75,353.5">
+          TopLeft="274.75,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11603,10 +13160,10 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
         <NodeLayout
           Size="166,42"
           Id="Package\po\OLE DB Command"
-          TopLeft="229,413.5" />
+          TopLeft="242,413.5" />
         <EdgeLayout
           Id="Package\po.Paths[Inferred Member Updates Output]"
-          TopLeft="312,353.5">
+          TopLeft="325,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11631,10 +13188,10 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
         <NodeLayout
           Size="175,42"
           Id="Package\po\OLE DB Command 1"
-          TopLeft="455.5,413.5" />
+          TopLeft="468.5,413.5" />
         <EdgeLayout
           Id="Package\po.Paths[Changing Attribute Updates Output]"
-          TopLeft="362.25,353.5">
+          TopLeft="375.25,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -11665,6 +13222,34 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="11.84109375,25.503937007874,157.0678125,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="120,42"
+          Id="Package\po\Multicast"
+          TopLeft="33,508" />
+        <EdgeLayout
+          Id="Package\po.Paths[OLE DB Destination Error Output]"
+          TopLeft="96.5,455.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52.5000000000001"
+              Start="0,0"
+              End="0,45.0000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.0000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-81.8700390625,14.5000000000001,163.740078125,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -11710,7 +13295,7 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
         <Value
           type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionID&gt;{F0FFBD6B-40D9-42D1-B149-081C7E1F8A75}&lt;/ConnectionID&gt;
+  &lt;ConnectionID&gt;{8BCDA197-5B46-48D8-A015-47DA8BA341E0}&lt;/ConnectionID&gt;
   &lt;TableName&gt;[dbo].[PURCHASE_ORDER]&lt;/TableName&gt;
   &lt;InputToColumnsCollection&gt;
     &lt;InputColumnToDBColumn&gt;
@@ -11943,42 +13528,46 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
+          Size="120,42"
+          Id="Package\SHIPPING_ORDER\Multicast"
+          TopLeft="20,331.5" />
+        <NodeLayout
           Size="163,42"
           Id="Package\SHIPPING_ORDER\Insert Destination"
-          TopLeft="5.50000000000006,209.5" />
+          TopLeft="5.5,209.5" />
         <EdgeLayout
           Id="Package\SHIPPING_ORDER.Paths[New Output]"
           TopLeft="261.75,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-174.75,60"
+              EndConnector="-174.75,60.0000000000001"
               Start="0,0"
-              End="-174.75,52.5">
+              End="-174.75,52.5000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.503937007874" />
+                    End="0,16.5039370078741" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16.503937007874"
-                    Point2="0,20.503937007874"
-                    Point3="-4,20.503937007874" />
+                    Point1="0,16.5039370078741"
+                    Point2="0,20.5039370078741"
+                    Point3="-4,20.5039370078741" />
                   <mssgle:LineSegment
-                    End="-170.75,20.503937007874" />
+                    End="-170.75,20.5039370078741" />
                   <mssgle:CubicBezierSegment
-                    Point1="-170.75,20.503937007874"
-                    Point2="-174.75,20.503937007874"
-                    Point3="-174.75,24.503937007874" />
+                    Point1="-170.75,20.5039370078741"
+                    Point2="-174.75,20.5039370078741"
+                    Point3="-174.75,24.5039370078741" />
                   <mssgle:LineSegment
-                    End="-174.75,52.5" />
+                    End="-174.75,52.5000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-114.46638671875,25.503937007874,54.1827734375,11.43359375"
+              BoundingBox="-114.46638671875,25.5039370078741,54.1827734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -12046,7 +13635,31 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="11.84109375,25.503937007874,157.0678125,11.6630859375"
+              BoundingBox="11.8410937499999,25.503937007874,157.0678125,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SHIPPING_ORDER.Paths[OLE DB Destination Error Output]"
+          TopLeft="83.5,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,79.9999999999999"
+              Start="0,0"
+              End="0,72.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,72.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-81.8700390625,28.2499999999999,163.740078125,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -12069,7 +13682,7 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
         <Value
           type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionID&gt;{F0FFBD6B-40D9-42D1-B149-081C7E1F8A75}&lt;/ConnectionID&gt;
+  &lt;ConnectionID&gt;{8BCDA197-5B46-48D8-A015-47DA8BA341E0}&lt;/ConnectionID&gt;
   &lt;TableName&gt;[dbo].[SHIPPING_ORDER]&lt;/TableName&gt;
   &lt;InputToColumnsCollection&gt;
     &lt;InputColumnToDBColumn&gt;
@@ -12201,118 +13814,127 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Detail_Invoice">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="159,42"
-          Id="Package\Detail_Invoice\OLE DB Source 1"
-          TopLeft="584,165" />
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\BC\OLE DB Source">
+    design-time-name="Package\po\Insert Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\BC\Slowly Changing Dimension">
+    design-time-name="Package\DETAIL_SHIPPING_ORDER\Insert Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\SHIPPING_ORDER\Insert Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\BC\Insert Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\NI\Insert Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Detail_Invoice\Slowly Changing Dimension">
     <Properties>
       <Property>
         <Name>SCDMetadata</Name>
         <Value
           type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionID&gt;{F0FFBD6B-40D9-42D1-B149-081C7E1F8A75}&lt;/ConnectionID&gt;
-  &lt;TableName&gt;[dbo].[BEACUKAI]&lt;/TableName&gt;
+  &lt;ConnectionID&gt;{8BCDA197-5B46-48D8-A015-47DA8BA341E0}&lt;/ConnectionID&gt;
+  &lt;TableName&gt;[dbo].[DETAIL_INVOICE]&lt;/TableName&gt;
   &lt;InputToColumnsCollection&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[BCDate]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;BCDate&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[BCId]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;BCId&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;OLE DB Source 1.Outputs[OLE DB Source Output].Columns[DetailInvoiceId]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;DetailInvoiceId&lt;/ColumnName&gt;
       &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[BCNo]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;BCNo&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;OLE DB Source 1.Outputs[OLE DB Source Output].Columns[DetailShippingOrderId]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;DetailShippingOrderId&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[BCType]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;BCType&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;OLE DB Source 1.Outputs[OLE DB Source Output].Columns[IncomeTax]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;IncomeTax&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Bruto]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;Bruto&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;OLE DB Source 1.Outputs[OLE DB Source Output].Columns[CurrencyCode]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;InvoiceCurrency&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[CreateDate]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;CreateDate&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoiceId]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;InvoiceId&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[CreateUserId]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;CreateUserId&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoicePrice]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;InvoicePrice&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[IsPost]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;IsPost&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;OLE DB Source 1.Outputs[OLE DB Source Output].Columns[InvoiceQuantity]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;InvoiceQuantity&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Netto]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;Netto&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Pack]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;Pack&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[QtyTot]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;QtyTot&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[UpdateDate]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;UpdateDate&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[UpdateUserId]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;UpdateUserId&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[ValidationDate]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;ValidationDate&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;OLE DB Source 1.Outputs[OLE DB Source Output].Columns[ValueAdded]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ValueAddedTax&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
@@ -12338,92 +13960,15 @@ where d.IsDeleted=0 and d.BillNo is not null</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\NI\OLE DB Source">
+    design-time-name="Package\Detail_Invoice\Insert Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\NI\Slowly Changing Dimension">
-    <Properties>
       <Property>
-        <Name>SCDMetadata</Name>
+        <Name>TableInfoObjectType</Name>
         <Value
-          type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionID&gt;{F0FFBD6B-40D9-42D1-B149-081C7E1F8A75}&lt;/ConnectionID&gt;
-  &lt;TableName&gt;[dbo].[INTERN_NOTE]&lt;/TableName&gt;
-  &lt;InputToColumnsCollection&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[CreateDate]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;CreateDate&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[CreateUserId]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;CreateUserId&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[InternNo]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;InternNo&lt;/ColumnName&gt;
-      &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
-      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[InternNoteTotal]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;InternNoteTotal&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[IsPost]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;IsPost&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[UpdateDate]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;UpdateDate&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[UpdateUserId]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;UpdateUserId&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
-  &lt;/InputToColumnsCollection&gt;
-  &lt;GeneratedComponentsIdentificationStrings&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command&lt;/anyType&gt;
-    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 1&lt;/anyType&gt;
-  &lt;/GeneratedComponentsIdentificationStrings&gt;
-  &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
-  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
-  &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
-  &lt;CurrentIndicatorColumn /&gt;
-  &lt;InferredIndicatorColumn /&gt;
-  &lt;ValueCurrent /&gt;
-  &lt;ValueExpired /&gt;
-  &lt;StartDateColumn /&gt;
-  &lt;EndDateColumn /&gt;
-  &lt;DateVariable /&gt;
-  &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
-&lt;/SCDWizardMetadata&gt;</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Detail_Invoice\OLE DB Source 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
